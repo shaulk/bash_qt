@@ -1,0 +1,20 @@
+bash-Qt is a simple Qt wrapper for bash, written as a joke. DO NOT use this for
+anything serious. It's probably full of bugs and security holes. I am not
+responsible for any damage, deleted files, flipped bits, angry spouses or
+anything else that may result from usage of bash-Qt. Seriously.
+
+Requirements
+------------
+	bash
+	Python 2.6 (may work on older versions)
+	PyQt4 (developed against PyQt 4.7, will probably work with any 4.x)
+All development and testing was done on Debian Squeeze, so if you're using
+something else it might not work.
+
+Files included
+--------------
+bash_qt.sh - This is the main bash-Qt module. Source this to use bash-Qt.
+bash_qt_support.py - This a small Python program that wraps PyQt4, answers
+	calls and sends signals to bash_qt.sh.
+hello.sh - Simple Hello, World! program.
+simple.sh - A slightly bigger example program.
